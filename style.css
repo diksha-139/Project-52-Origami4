@@ -1,0 +1,104 @@
+.header{
+    background-color: #5E9FA7;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header * {
+    border: solid;
+}
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+p,h2{
+    text-align: center;
+}
+
+a:link{
+    color: #ae00ff;
+}
+
+a:visited {
+    color:#008cff;
+}
+
+.nav{
+    margin-right: 50px;
+}
+
+.nav a{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity: 0.55;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f5ffbb;
+    border: 10px solid #696969;
+    background-color: #696969;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7a7349;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #B95F3E;
+}
+ol{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B95F3E;
+}
+body{
+    background-color: #b4e5fcb4;
+}
+img{
+    background-color: #bec6e2;
+    border-radius: 35px;
+    border: 5px solid #555;
+    padding: 8px;
+    margin: 10px;
+    position: relative;
+}
